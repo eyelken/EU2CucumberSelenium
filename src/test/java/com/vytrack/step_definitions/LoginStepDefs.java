@@ -26,5 +26,10 @@ public class LoginStepDefs {
     public void the_user_enter_sales_manager_information() {
         System.out.println("I put salesmanager85 and Useruser123 and click enter");
     }
+    @When("the user enter store manager information")
+    public void the_user_enter_store_manager_information() {
+        System.out.println("I put storemanager101 and UserUser123 and click enter");
+
+    }
 
 }
