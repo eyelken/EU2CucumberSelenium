@@ -29,6 +29,4 @@ public class LoginPage {
         submit.click();
         // verification that we logged
     }
-    //BREAK UNTIL 12:10
-
 }
