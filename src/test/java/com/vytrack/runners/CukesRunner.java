@@ -6,10 +6,11 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
+        plugin = {"json:target/cucumber.json"},
         features = "src/test/resources/features/",
             glue = "com/vytrack/step_definitions",
             dryRun = false,                             //if true, just check for any undefined steps
-            tags = "@SalesNavigate"
+            tags = "@wip"
 
 )
 public class CukesRunner {

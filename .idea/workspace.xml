@@ -2,9 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/BasePage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/CalendarEventsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/ContactInfoPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/ContactsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/CreateCalendarEventsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/DashboardPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/BrowserUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/LoginWithParameters.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/NavigationMenuStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/NavigationMenuStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -37,10 +54,17 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/vytrack/pages" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\IdeaProjects\EU2CucumberSelenium\src\test\java\com\vytrack\pages" />
+      <recent name="C:\Users\LENOVO\IdeaProjects\EU2CucumberSelenium\src\test\java\com\vytrack\utilities" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -82,12 +106,20 @@
       <option name="project" value="LOCAL" />
       <updated>1591170568723</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="wed before class">
+      <created>1591183388375</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1591183388375</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wed morning after task" />
-    <option name="LAST_COMMIT_MESSAGE" value="wed morning after task" />
+    <MESSAGE value="wed before class" />
+    <option name="LAST_COMMIT_MESSAGE" value="wed before class" />
   </component>
   <component name="WindowStateProjectService">
     <state x="721" y="98" key="#Project_Structure" timestamp="1590941020626">
@@ -98,34 +130,34 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2516" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591099594241" />
-    <state x="456" y="0" key="CommitChangelistDialog2" timestamp="1591170567815">
+    <state x="456" y="0" key="CommitChangelistDialog2" timestamp="1591183387733">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="456" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591170567815" />
+    <state x="456" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183387733" />
     <state x="2376" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591119045764" />
-    <state width="1342" height="143" key="GridCell.Tab.0.bottom" timestamp="1591183336905">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1242" height="177" key="GridCell.Tab.0.bottom" timestamp="1591257131673">
+      <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="143" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183336905" />
-    <state width="1278" height="181" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591120930797" />
+    <state width="1242" height="97" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591254620447" />
+    <state width="1242" height="177" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591257131673" />
     <state width="1537" height="180" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state width="1342" height="143" key="GridCell.Tab.0.center" timestamp="1591183336905">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1242" height="177" key="GridCell.Tab.0.center" timestamp="1591257131673">
+      <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="143" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183336905" />
-    <state width="1278" height="181" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591120930797" />
+    <state width="1242" height="97" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591254620447" />
+    <state width="1242" height="177" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591257131673" />
     <state width="1537" height="180" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state width="1342" height="143" key="GridCell.Tab.0.left" timestamp="1591183336905">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1242" height="177" key="GridCell.Tab.0.left" timestamp="1591257131673">
+      <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="143" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183336905" />
-    <state width="1278" height="181" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591120930796" />
+    <state width="1242" height="97" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591254620447" />
+    <state width="1242" height="177" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591257131673" />
     <state width="1537" height="180" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state width="1342" height="143" key="GridCell.Tab.0.right" timestamp="1591183336905">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state width="1242" height="177" key="GridCell.Tab.0.right" timestamp="1591257131673">
+      <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state width="1342" height="143" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183336905" />
-    <state width="1278" height="181" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591120930797" />
+    <state width="1242" height="97" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591254620447" />
+    <state width="1242" height="177" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591257131673" />
     <state width="1537" height="180" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
     <state x="511" y="168" key="IDE.errors.dialog" timestamp="1590940013369">
       <screen x="0" y="0" width="1536" height="864" />
@@ -135,14 +167,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="559" y="100" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590939402686" />
-    <state x="435" y="139" key="Vcs.Push.Dialog.v2" timestamp="1591183361973">
+    <state x="435" y="139" key="Vcs.Push.Dialog.v2" timestamp="1591183389911">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="435" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183361973" />
-    <state x="2626" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1591166936650">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state x="435" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183389911" />
+    <state x="895" y="266" key="com.intellij.ide.util.TipDialog" timestamp="1591253683355">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="895" y="266" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591010216351" />
+    <state x="895" y="266" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591253683355" />
     <state x="2626" y="190" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591166936650" />
     <state x="895" y="266" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1590948461221" />
     <state x="543" y="207" key="git4idea.merge.GitPullDialog" timestamp="1591183353044">

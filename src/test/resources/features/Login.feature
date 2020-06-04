@@ -1,6 +1,6 @@
 @login
 Feature: Users should be able to login
-  @driver @smoke @VYT-123
+  @driver @smoke @VYT-123 @wip
   Scenario: Login as a driver
     Given the user is on the login page
     When the user enter the driver information
@@ -15,5 +15,3 @@ Feature: Users should be able to login
     Given the user is on the login page
     When the user enter store manager information
     Then the user should be able to login
-
-#comment
