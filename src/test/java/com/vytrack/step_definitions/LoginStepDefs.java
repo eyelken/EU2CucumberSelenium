@@ -10,16 +10,17 @@ import io.cucumber.java.en.When;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 
+
 public class LoginStepDefs {
 
 
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() {
-        //WebDriver driver = Driver.get();  Singleton design pattern to open browser
-        //driver.get(url);                  Selenium method
-        //instead of creating driver object we will use Driver.get() directly thanks to Singleton concept
+        //WebDriver driver = Driver.get();
+        //driver.get(url);
+        //instead of driver object we will use Driver.get() directly
         String url = ConfigurationReader.get("url");
-        Driver.get().get(url);      //1st get is to open browser, 2nd comes from Selenium
+        Driver.get().get(url);
     }
 
     @When("the user enter the driver information")
@@ -34,8 +35,11 @@ public class LoginStepDefs {
     @Then("the user should be able to login")
     public void the_user_should_be_able_to_login() {
         BrowserUtils.waitFor(3);
+
         String actualTitle = Driver.get().getTitle();
         Assert.assertEquals("Verify title","Dashboard",actualTitle);
+
+
     }
 
     @When("the user enter sales manager information")
@@ -65,11 +69,9 @@ public class LoginStepDefs {
         Assert.assertTrue(Driver.get().getTitle().contains(expectedTitle));
 
     }
-    @Given("the user logged in as {string}")
-    public void the_user_logged_in_as(String userName) {
-        LoginPage loginPage = new LoginPage();
-        loginPage.login(ConfigurationReader.get(userName+"_username"),ConfigurationReader.get(userName+"_password"));
-    }
+
+
+
 
 
 }
