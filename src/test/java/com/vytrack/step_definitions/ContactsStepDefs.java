@@ -40,16 +40,16 @@ public class ContactsStepDefs {
     }
 
     @Then("the user should see following options")
-    public void the_user_should_see_following_options(List<String> menuOptions) {
+    public void the_user_should_see_following_options(List<String> expOptions) {
 
         BrowserUtils.waitFor(2);
         DashboardPage dashboardPage = new DashboardPage();
         //get the list of webelement and convert them to list of string with the help of ready method.
         List<String> actualOptions = BrowserUtils.getElementsText(dashboardPage.menuOptions);
 
-        Assert.assertEquals(menuOptions,actualOptions);
+        Assert.assertEquals(expOptions,actualOptions);
         System.out.println("actualOptions = " + actualOptions);
-        System.out.println("menuOptions = " + menuOptions);
+        System.out.println("expOptions = " + expOptions);
 
 
     }

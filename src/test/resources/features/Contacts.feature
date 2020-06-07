@@ -15,14 +15,14 @@ Feature: Contacts page
 
 
   Scenario: Menu options
-    Given the user logged in as "driver"
+    Given the user logged in as "drivers"
     Then the user should see following options
       | Fleet      |
       | Customers  |
       | Activities |
       | System     |
 
-  @wip
+
   Scenario: login as a given user
     Given the user is on the login page
     When the user logs in using following credentials
