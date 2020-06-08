@@ -42,8 +42,8 @@ Feature: Account types
       | store manager | System     | Jobs            | All - Jobs - System                                                |
       | store manager | System     | Menus           | All - Menus - System                                               |
 
-
-  Scenario Outline: Login with different users
+@test
+  Scenario Outline: Login with different users: "<userType>"
     Given the user logged in as "<userType>"
 
     Examples:
