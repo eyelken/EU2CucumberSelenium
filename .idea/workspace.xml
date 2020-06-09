@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
-final
-
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +20,7 @@ final
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="final" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -165,7 +164,14 @@ final
       <option name="project" value="LOCAL" />
       <updated>1591621776752</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="monday afternoon before class">
+      <created>1591731956466</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591731956466</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,11 +198,11 @@ final
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2473" y="175" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591604578409" />
-    <state x="2376" y="0" key="CommitChangelistDialog2" timestamp="1591730864398">
+    <state x="2376" y="0" key="CommitChangelistDialog2" timestamp="1591731955741">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="456" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183387733" />
-    <state x="2376" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591730864398" />
+    <state x="2376" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591731955741" />
     <state x="2561" y="153" key="FileChooserDialogImpl" timestamp="1591730325950">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -237,11 +243,11 @@ final
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="559" y="100" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590939402686" />
-    <state x="2355" y="139" key="Vcs.Push.Dialog.v2" timestamp="1591730873964">
+    <state x="2355" y="139" key="Vcs.Push.Dialog.v2" timestamp="1591731970202">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="435" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183389911" />
-    <state x="2355" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591730873964" />
+    <state x="2355" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591731970202" />
     <state x="2626" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1591623214936">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
@@ -256,10 +262,10 @@ final
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2466" y="156" width="590" height="488" key="find.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591552965024" />
-    <state x="2514" y="124" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591730995071">
+    <state x="2514" y="124" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591732018992">
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
-    <state x="2514" y="124" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591730995071" />
+    <state x="2514" y="124" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591732018992" />
     <state x="543" y="207" key="git4idea.merge.GitPullDialog" timestamp="1591183353044">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
