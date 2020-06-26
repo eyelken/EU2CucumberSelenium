@@ -3,7 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginWithParameters.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginWithParameters.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -207,28 +211,28 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2561" y="153" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591730325950" />
-    <state width="1196" height="164" key="GridCell.Tab.0.bottom" timestamp="1591729781925">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state width="1371" height="154" key="GridCell.Tab.0.bottom" timestamp="1593191990935">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1282" height="83" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591605021975" />
+    <state width="1371" height="154" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593191990935" />
     <state width="1196" height="164" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591729781925" />
     <state width="1537" height="180" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state width="1196" height="164" key="GridCell.Tab.0.center" timestamp="1591729781925">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state width="1371" height="154" key="GridCell.Tab.0.center" timestamp="1593191990935">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1282" height="83" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591605021975" />
+    <state width="1371" height="154" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593191990935" />
     <state width="1196" height="164" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591729781925" />
     <state width="1537" height="180" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state width="1196" height="164" key="GridCell.Tab.0.left" timestamp="1591729781925">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state width="1371" height="154" key="GridCell.Tab.0.left" timestamp="1593191990934">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1282" height="83" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591605021975" />
+    <state width="1371" height="154" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593191990934" />
     <state width="1196" height="164" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591729781925" />
     <state width="1537" height="180" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state width="1196" height="164" key="GridCell.Tab.0.right" timestamp="1591729781925">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state width="1371" height="154" key="GridCell.Tab.0.right" timestamp="1593191990935">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1282" height="83" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591605021975" />
+    <state width="1371" height="154" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593191990935" />
     <state width="1196" height="164" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591729781925" />
     <state width="1537" height="180" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
     <state x="511" y="168" key="IDE.errors.dialog" timestamp="1590940013369">
@@ -258,9 +262,10 @@
       <screen x="1920" y="0" width="1536" height="864" />
     </state>
     <state x="2595" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591730536332" />
-    <state x="2466" y="156" width="590" height="488" key="find.popup" timestamp="1591552965024">
-      <screen x="1920" y="0" width="1536" height="864" />
+    <state x="546" y="156" width="590" height="488" key="find.popup" timestamp="1593191416547">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state x="546" y="156" width="590" height="488" key="find.popup/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593191416547" />
     <state x="2466" y="156" width="590" height="488" key="find.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591552965024" />
     <state x="2514" y="124" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591732018992">
       <screen x="1920" y="0" width="1536" height="864" />
