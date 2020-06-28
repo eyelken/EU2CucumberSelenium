@@ -18,3 +18,8 @@ Feature: Users should be able to login
   Scenario: Login as a store manager
     When the user enter store manager information
     Then the user should be able to login
+  @admin
+  Scenario: login as admin
+    Given the user is on the login page
+    When the user enter admin information
+    Then the user should be able to login

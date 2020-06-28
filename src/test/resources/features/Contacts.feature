@@ -55,3 +55,41 @@ Feature: Contacts page
       | user1           | John      | Doe      |
       | salesmanager101 | Peyton    | Harber   |
       | storemanager85  | Marcella  | Huels    |
+
+  Scenario Outline: Default page number
+    Given the user is on the login page
+    And the user enter the driver information
+    When the user navigates "Customers" "Contacts"
+    Then default page number should be <number>
+    Examples:
+      | number |
+      | 1      |
+      | 2      |
+      | 3      |
+
+  @db
+  Scenario: Contacts test with email
+    Given the user logged in as "store manager"
+    And the user navigates "Customers" "Contacts"
+    When the user clicks the "mbrackstone9@example.com" from contacts
+    Then the information should be same with database
+
+  @db
+  Scenario: Contacts test with email
+    Given the user logged in as "store manager"
+    And the user navigates "Customers" "Contacts"
+    When the user clicks the "mike.jorden@hotmail.com" from contacts
+    Then the information "mike.jorden@hotmail.com" should be same with database
+
+  @wip @db
+  Scenario Outline: Contacts test with email
+    Given the user logged in as "store manager"
+    And the user navigates "Customers" "Contacts"
+    When the user clicks the "<email>" from contacts
+    Then the information "<email>" should be same with database
+
+    Examples:
+      | email                    |
+      | mbrackstone9@example.com |
+      | mike.jorden@hotmail.com  |
+      | Asan@gmail.com           |
