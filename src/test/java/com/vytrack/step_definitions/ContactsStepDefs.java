@@ -72,7 +72,7 @@ public class ContactsStepDefs {
     @When("the user clicks the {string} from contacts")
     public void the_user_clicks_the_from_contacts(String email) {
 
-        BrowserUtils.waitFor(2);
+        BrowserUtils.waitFor(5);
 
         //click the row with email
         ContactsPage contactsPage = new ContactsPage();
@@ -94,12 +94,10 @@ public class ContactsStepDefs {
 
 
         //get expected data from database
-        String query = "select concat(first_name,' ',last_name) as fullname,e.email,phone\n" +
-                "from orocrm_contact c JOIN  orocrm_contact_email e\n" +
-                "ON c.id=e.owner_id \n" +
-                "JOIN orocrm_contact_phone p\n" +
-                "ON e.owner_id=p.owner_id\n" +
-                "where e.email=\"mbrackstone9@example.com\"";
+        String query = "select first_name, last_name, e.email, p.phone from orocrm_contact c\n" +
+                "join orocrm_contact_email e on c.id = e.owner_id\n" +
+                "join orocrm_contact_phone p on c.id = p.owner_id\n" +
+                "where e.email = 'mbrackstone9@example.com'";
 
 
         //since the result is only one row, we saved in Map<String,Object>
@@ -116,7 +114,6 @@ public class ContactsStepDefs {
         System.out.println("expectedPhone = " + expectedPhone);
 
         //Compare UI to DB
-
         Assert.assertEquals(expectedFullname,actualFullname);
         Assert.assertEquals(expectedEmail,actualEmail);
         Assert.assertEquals(expectedPhone,actualPhone);

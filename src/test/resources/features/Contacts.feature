@@ -74,14 +74,14 @@ Feature: Contacts page
     When the user clicks the "mbrackstone9@example.com" from contacts
     Then the information should be same with database
 
-  @db
+
   Scenario: Contacts test with email
     Given the user logged in as "store manager"
     And the user navigates "Customers" "Contacts"
     When the user clicks the "mike.jorden@hotmail.com" from contacts
     Then the information "mike.jorden@hotmail.com" should be same with database
 
-  @wip @db
+  @wip
   Scenario Outline: Contacts test with email
     Given the user logged in as "store manager"
     And the user navigates "Customers" "Contacts"
