@@ -94,16 +94,17 @@ public class ContactsStepDefs {
 
 
         //get expected data from database
-        String query = "select first_name, last_name, e.email, p.phone from orocrm_contact c\n" +
+        String query = "select concat(first_name,' ', last_name) as fullname, e.email, p.phone from orocrm_contact c\n" +
                 "join orocrm_contact_email e on c.id = e.owner_id\n" +
                 "join orocrm_contact_phone p on c.id = p.owner_id\n" +
                 "where e.email = 'mbrackstone9@example.com'";
 
+        //create connection
+        DBUtils.createConnection();
 
         //since the result is only one row, we saved in Map<String,Object>
         //if you are dealing with multiple rows, use List<Map<String,Object>>
         Map<String, Object> rowMap = DBUtils.getRowMap(query);
-
 
         String expectedFullname = (String) rowMap.get("fullname");
         String expectedEmail = (String) rowMap.get("email");
@@ -112,6 +113,9 @@ public class ContactsStepDefs {
         System.out.println("expectedFullname = " + expectedFullname);
         System.out.println("expectedEmail = " + expectedEmail);
         System.out.println("expectedPhone = " + expectedPhone);
+
+        //close connection
+        DBUtils.destroy();
 
         //Compare UI to DB
         Assert.assertEquals(expectedFullname,actualFullname);
