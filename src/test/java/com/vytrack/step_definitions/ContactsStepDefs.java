@@ -77,6 +77,7 @@ public class ContactsStepDefs {
         //click the row with email
         ContactsPage contactsPage = new ContactsPage();
         contactsPage.getContactEmail(email).click();
+        BrowserUtils.waitForPageToLoad(7);
 
     }
 
