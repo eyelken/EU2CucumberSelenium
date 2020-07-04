@@ -55,7 +55,7 @@ Feature: Contacts page
       | user1           | John      | Doe      |
       | salesmanager101 | Peyton    | Harber   |
       | storemanager85  | Marcella  | Huels    |
-
+@num
   Scenario Outline: Default page number
     Given the user is on the login page
     And the user enter the driver information
