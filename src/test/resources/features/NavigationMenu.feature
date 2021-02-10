@@ -1,4 +1,4 @@
-@Navigate
+@Navigate @wip
 Feature: Navigate Menu
   Scenario: Navigate to Fleet, Vehicles
     Given the user is on the login page

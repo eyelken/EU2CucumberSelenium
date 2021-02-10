@@ -1,8 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+
+      
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,38 +33,34 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="final" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1cg8eLA9ZoCGvA2oiJn3ZcbXLVc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/vytrack/pages" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.vytrack.utilities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\IdeaProjects\EU2CucumberSelenium\src\test\resources" />
       <recent name="C:\Users\LENOVO\IdeaProjects\EU2CucumberSelenium\src\test\java\com\vytrack\pages" />
       <recent name="C:\Users\LENOVO\IdeaProjects\EU2CucumberSelenium\src\test\java\com\vytrack\utilities" />
     </key>
@@ -88,14 +98,15 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.FailedTestRunner" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -106,6 +117,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590938969890</updated>
+      <workItem from="1603634398133" duration="1683000" />
+      <workItem from="1603636953820" duration="95000" />
+      <workItem from="1603660267226" duration="106000" />
+      <workItem from="1603815211065" duration="4311000" />
+      <workItem from="1603819937762" duration="1760000" />
+      <workItem from="1605547089441" duration="3535000" />
+      <workItem from="1605595013425" duration="760000" />
+      <workItem from="1606573433860" duration="13000" />
+      <workItem from="1608823469137" duration="106000" />
+      <workItem from="1608914477351" duration="1231000" />
+      <workItem from="1608919215397" duration="1185000" />
+      <workItem from="1608976823437" duration="6000" />
+      <workItem from="1610965325188" duration="800000" />
+      <workItem from="1610989757095" duration="346000" />
+      <workItem from="1611676363526" duration="23000" />
+      <workItem from="1611682563825" duration="8000" />
+      <workItem from="1611819213710" duration="643000" />
+      <workItem from="1611823406104" duration="1160000" />
+      <workItem from="1611939984980" duration="825000" />
+      <workItem from="1612021926995" duration="25000" />
+      <workItem from="1612350320817" duration="603000" />
+      <workItem from="1612433199349" duration="1047000" />
+      <workItem from="1612461768902" duration="390000" />
+      <workItem from="1612775328211" duration="171000" />
+      <workItem from="1612775528257" duration="156000" />
+      <workItem from="1612776172047" duration="186000" />
+      <workItem from="1612778668822" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
@@ -163,8 +201,81 @@
       <option name="project" value="LOCAL" />
       <updated>1591621776752</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="monday afternoon before class">
+      <created>1591731956466</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1591731956466</updated>
+    </task>
+    <task id="LOCAL-00010" summary="June 28 10:35 after db connection adds">
+      <created>1593329738064</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1593329738064</updated>
+    </task>
+    <task id="LOCAL-00011" summary="June 28 13:43">
+      <created>1593341033158</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1593341033158</updated>
+    </task>
+    <task id="LOCAL-00012" summary="June 28 14:37">
+      <created>1593344269517</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1593344269517</updated>
+    </task>
+    <task id="LOCAL-00013" summary="June 28 14:47">
+      <created>1593344849390</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1593344849390</updated>
+    </task>
+    <task id="LOCAL-00014" summary="June 30 11:15">
+      <created>1593504942225</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1593504942225</updated>
+    </task>
+    <task id="LOCAL-00015" summary="June 30 13:02">
+      <created>1593511367875</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1593511367875</updated>
+    </task>
+    <task id="LOCAL-00016" summary="sat night">
+      <created>1593896320062</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1593896320062</updated>
+    </task>
+    <task id="LOCAL-00017" summary="tuesday 17.38">
+      <created>1594132715732</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1594132715732</updated>
+    </task>
+    <task id="LOCAL-00018" summary="tuesday 17.39">
+      <created>1594132767397</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1594132767397</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wed morning after task" />
@@ -175,96 +286,15 @@
     <MESSAGE value="sunday during jamal class" />
     <MESSAGE value="sunday after jamal class" />
     <MESSAGE value="monday afternoon before class" />
-    <option name="LAST_COMMIT_MESSAGE" value="monday afternoon before class" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="721" y="98" key="#Project_Structure" timestamp="1590941020626">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="721" y="98" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1590941020626" />
-    <state x="2516" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591099594241">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2516" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591099594241" />
-    <state x="2473" y="175" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591604578409">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2473" y="175" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591604578409" />
-    <state x="2376" y="0" key="CommitChangelistDialog2" timestamp="1591730864398">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="456" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183387733" />
-    <state x="2376" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591730864398" />
-    <state x="2561" y="153" key="FileChooserDialogImpl" timestamp="1591730325950">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2561" y="153" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591730325950" />
-    <state width="1196" height="164" key="GridCell.Tab.0.bottom" timestamp="1591729781925">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state width="1282" height="83" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591605021975" />
-    <state width="1196" height="164" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591729781925" />
-    <state width="1537" height="180" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state width="1196" height="164" key="GridCell.Tab.0.center" timestamp="1591729781925">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state width="1282" height="83" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591605021975" />
-    <state width="1196" height="164" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591729781925" />
-    <state width="1537" height="180" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state width="1196" height="164" key="GridCell.Tab.0.left" timestamp="1591729781925">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state width="1282" height="83" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591605021975" />
-    <state width="1196" height="164" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591729781925" />
-    <state width="1537" height="180" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state width="1196" height="164" key="GridCell.Tab.0.right" timestamp="1591729781925">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state width="1282" height="83" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591605021975" />
-    <state width="1196" height="164" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591729781925" />
-    <state width="1537" height="180" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state x="511" y="168" key="IDE.errors.dialog" timestamp="1590940013369">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="511" y="168" key="IDE.errors.dialog/0.0.1536.864@0.0.1536.864" timestamp="1590940013369" />
-    <state x="350" y="59" key="Maven.ArtifactSearchDialog" timestamp="1591604885847">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="350" y="59" key="Maven.ArtifactSearchDialog/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591604885847" />
-    <state x="559" y="100" key="SettingsEditor" timestamp="1590939402686">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="559" y="100" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590939402686" />
-    <state x="2355" y="139" key="Vcs.Push.Dialog.v2" timestamp="1591730873964">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="435" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183389911" />
-    <state x="2355" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591730873964" />
-    <state x="2626" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1591623214936">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="895" y="266" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591253683355" />
-    <state x="2626" y="190" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591623214936" />
-    <state x="895" y="266" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1590948461221" />
-    <state x="2595" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591730536332">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2595" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591730536332" />
-    <state x="2466" y="156" width="590" height="488" key="find.popup" timestamp="1591552965024">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2466" y="156" width="590" height="488" key="find.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591552965024" />
-    <state x="2514" y="124" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591730995071">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2514" y="124" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591730995071" />
-    <state x="543" y="207" key="git4idea.merge.GitPullDialog" timestamp="1591183353044">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="543" y="207" key="git4idea.merge.GitPullDialog/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183353044" />
-    <state x="2200" y="103" key="new project wizard" timestamp="1591340416057">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2200" y="103" key="new project wizard/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591340416057" />
+    <MESSAGE value="June 28 10:35 after db connection adds" />
+    <MESSAGE value="June 28 13:43" />
+    <MESSAGE value="June 28 14:37" />
+    <MESSAGE value="June 28 14:47" />
+    <MESSAGE value="June 30 11:15" />
+    <MESSAGE value="June 30 13:02" />
+    <MESSAGE value="sat night" />
+    <MESSAGE value="tuesday 17.38" />
+    <MESSAGE value="tuesday 17.39" />
+    <option name="LAST_COMMIT_MESSAGE" value="tuesday 17.39" />
   </component>
 </project>
