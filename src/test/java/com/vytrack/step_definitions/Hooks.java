@@ -1,5 +1,6 @@
 package com.vytrack.step_definitions;
 
+import com.vytrack.utilities.ConfigurationReader;
 import com.vytrack.utilities.DBUtils;
 import com.vytrack.utilities.Driver;
 import io.cucumber.java.After;
@@ -15,10 +16,13 @@ public class Hooks {
     @Before
     public void setUp(){
         System.out.println("\tthis is coming from BEFORE");
-        Driver.get().manage().window().maximize();
+
+        String browser = ConfigurationReader.get("browser");
+        if(!browser.contains("mobile")){
+            Driver.get().manage().window().maximize();
+        }
         Driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
     }
-
     @After
     public void tearDown(Scenario scenario){
         if (scenario.isFailed()){

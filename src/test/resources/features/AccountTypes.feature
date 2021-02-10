@@ -15,7 +15,6 @@ Feature: Account types
     When the user navigates "Customers" "Contacts"
     Then the title contains "Contacts - Customer"
 
-
   Scenario Outline: Login with Different accounts <userType>
     Given the user logged in as "<userType>"
     When the user navigates "<tab>" "<module>"

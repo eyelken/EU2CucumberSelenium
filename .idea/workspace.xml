@@ -1,8 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/Hooks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,32 +36,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="1cg8eLA9ZoCGvA2oiJn3ZcbXLVc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/vytrack/pages" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.vytrack.utilities" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LENOVO\IdeaProjects\EU2CucumberSelenium\src\test\resources" />
       <recent name="C:\Users\LENOVO\IdeaProjects\EU2CucumberSelenium\src\test\java\com\vytrack\pages" />
       <recent name="C:\Users\LENOVO\IdeaProjects\EU2CucumberSelenium\src\test\java\com\vytrack\utilities" />
     </key>
@@ -96,6 +103,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -106,6 +114,33 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1590938969890</updated>
+      <workItem from="1603634398133" duration="1683000" />
+      <workItem from="1603636953820" duration="95000" />
+      <workItem from="1603660267226" duration="106000" />
+      <workItem from="1603815211065" duration="4311000" />
+      <workItem from="1603819937762" duration="1760000" />
+      <workItem from="1605547089441" duration="3535000" />
+      <workItem from="1605595013425" duration="760000" />
+      <workItem from="1606573433860" duration="13000" />
+      <workItem from="1608823469137" duration="106000" />
+      <workItem from="1608914477351" duration="1231000" />
+      <workItem from="1608919215397" duration="1185000" />
+      <workItem from="1608976823437" duration="6000" />
+      <workItem from="1610965325188" duration="800000" />
+      <workItem from="1610989757095" duration="346000" />
+      <workItem from="1611676363526" duration="23000" />
+      <workItem from="1611682563825" duration="8000" />
+      <workItem from="1611819213710" duration="643000" />
+      <workItem from="1611823406104" duration="1160000" />
+      <workItem from="1611939984980" duration="825000" />
+      <workItem from="1612021926995" duration="25000" />
+      <workItem from="1612350320817" duration="603000" />
+      <workItem from="1612433199349" duration="1047000" />
+      <workItem from="1612461768902" duration="390000" />
+      <workItem from="1612775328211" duration="171000" />
+      <workItem from="1612775528257" duration="156000" />
+      <workItem from="1612776172047" duration="186000" />
+      <workItem from="1612778668822" duration="346000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
@@ -219,8 +254,25 @@
       <option name="project" value="LOCAL" />
       <updated>1593896320062</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="tuesday 17.38">
+      <created>1594132715732</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1594132715732</updated>
+    </task>
+    <task id="LOCAL-00018" summary="tuesday 17.39">
+      <created>1594132767397</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1594132767397</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="wed morning after task" />
@@ -238,107 +290,8 @@
     <MESSAGE value="June 30 11:15" />
     <MESSAGE value="June 30 13:02" />
     <MESSAGE value="sat night" />
-    <option name="LAST_COMMIT_MESSAGE" value="sat night" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="721" y="98" key="#Project_Structure" timestamp="1590941020626">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="721" y="98" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1590941020626" />
-    <state x="2516" y="222" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1591099594241">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2516" y="222" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591099594241" />
-    <state x="2473" y="175" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1591604578409">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2473" y="175" key="#com.intellij.ide.util.PackageChooserDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591604578409" />
-    <state x="2376" y="0" key="CommitChangelistDialog2" timestamp="1594132715248">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="456" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593329737321" />
-    <state x="2376" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1594132715248" />
-    <state x="2490" y="0" key="CommitChangelistDialog2/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593896319236" />
-    <state x="2561" y="153" key="FileChooserDialogImpl" timestamp="1591730325950">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2561" y="153" key="FileChooserDialogImpl/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591730325950" />
-    <state width="1608" height="251" key="GridCell.Tab.0.bottom" timestamp="1593896361549">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1371" height="154" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593191990935" />
-    <state width="1238" height="235" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1593504962508" />
-    <state width="1608" height="251" key="GridCell.Tab.0.bottom/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593896361549" />
-    <state width="1537" height="180" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state width="1608" height="251" key="GridCell.Tab.0.center" timestamp="1593896361549">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1371" height="154" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593191990935" />
-    <state width="1238" height="235" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1593504962508" />
-    <state width="1608" height="251" key="GridCell.Tab.0.center/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593896361549" />
-    <state width="1537" height="180" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state width="1608" height="251" key="GridCell.Tab.0.left" timestamp="1593896361549">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1371" height="154" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593191990934" />
-    <state width="1238" height="235" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1593504962508" />
-    <state width="1608" height="251" key="GridCell.Tab.0.left/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593896361549" />
-    <state width="1537" height="180" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state width="1608" height="251" key="GridCell.Tab.0.right" timestamp="1593896361549">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state width="1371" height="154" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593191990935" />
-    <state width="1238" height="235" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1593504962508" />
-    <state width="1608" height="251" key="GridCell.Tab.0.right/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593896361549" />
-    <state width="1537" height="180" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1590952672315" />
-    <state x="511" y="168" key="IDE.errors.dialog" timestamp="1590940013369">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="511" y="168" key="IDE.errors.dialog/0.0.1536.864@0.0.1536.864" timestamp="1590940013369" />
-    <state x="350" y="59" key="Maven.ArtifactSearchDialog" timestamp="1591604885847">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="350" y="59" key="Maven.ArtifactSearchDialog/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591604885847" />
-    <state x="2619" y="125" key="SettingsEditor" timestamp="1593537429719">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2619" y="125" key="SettingsEditor/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593537429719" />
-    <state x="559" y="100" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1590939402686" />
-    <state x="2355" y="139" key="Vcs.Push.Dialog.v2" timestamp="1594132723415">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="435" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593329753219" />
-    <state x="2355" y="139" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1594132723415" />
-    <state x="2464" y="174" key="Vcs.Push.Dialog.v2/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593896330909" />
-    <state x="2626" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1594132036346">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="895" y="266" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593427751905" />
-    <state x="2626" y="190" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1594132036346" />
-    <state x="706" y="190" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1593895362346" />
-    <state x="2803" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.864/1920.0.1920.1080@1920.0.1920.1080" timestamp="1593871809999" />
-    <state x="895" y="266" key="com.intellij.ide.util.TipDialog/0.0.1536.864@0.0.1536.864" timestamp="1590948461221" />
-    <state x="675" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1593895446392">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="2595" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591730536332" />
-    <state x="675" y="327" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864/1920.0.1920.1080@0.0.1536.864" timestamp="1593895446392" />
-    <state x="2466" y="156" width="590" height="488" key="find.popup" timestamp="1593337132636">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="546" y="156" width="590" height="488" key="find.popup/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1593191416547" />
-    <state x="2466" y="156" width="590" height="488" key="find.popup/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1593337132636" />
-    <state x="2514" y="124" key="git4idea.branch.GitSmartOperationDialog" timestamp="1591732018992">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2514" y="124" key="git4idea.branch.GitSmartOperationDialog/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591732018992" />
-    <state x="543" y="207" key="git4idea.merge.GitPullDialog" timestamp="1591183353044">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="543" y="207" key="git4idea.merge.GitPullDialog/0.0.1536.864/1920.0.1536.864@0.0.1536.864" timestamp="1591183353044" />
-    <state x="2200" y="103" key="new project wizard" timestamp="1591340416057">
-      <screen x="1920" y="0" width="1536" height="864" />
-    </state>
-    <state x="2200" y="103" key="new project wizard/0.0.1536.864/1920.0.1536.864@1920.0.1536.864" timestamp="1591340416057" />
+    <MESSAGE value="tuesday 17.38" />
+    <MESSAGE value="tuesday 17.39" />
+    <option name="LAST_COMMIT_MESSAGE" value="tuesday 17.39" />
   </component>
 </project>
