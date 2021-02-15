@@ -1,7 +1,5 @@
 package com.vytrack.utilities;
 
-
-import io.appium.java_client.remote.MobileCapabilityType;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.Platform;
 import org.openqa.selenium.WebDriver;
@@ -12,8 +10,6 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
-import org.openqa.selenium.remote.BrowserType;
-import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
@@ -57,14 +53,12 @@ public class Driver {
                     WebDriverManager.iedriver().setup();
                     driverPool.set(new InternetExplorerDriver());
                     break;
-
                 case "edge":
                     if (!System.getProperty("os.name").toLowerCase().contains("windows"))
                         throw new WebDriverException("Your OS doesn't support Edge");
                     WebDriverManager.edgedriver().setup();
                     driverPool.set(new EdgeDriver());
                     break;
-
                 case "safari":
                     if (!System.getProperty("os.name").toLowerCase().contains("mac"))
                         throw new WebDriverException("Your OS doesn't support Safari");
@@ -75,33 +69,16 @@ public class Driver {
                     ChromeOptions chromeOptions = new ChromeOptions();
                     chromeOptions.setCapability("platform", Platform.ANY);
                     try {
-                        driverPool.set(new RemoteWebDriver(new URL("https://hiltas:161bf1d2-16cf-4009-bbd6-a025ace28710@ondemand.us-west-1.saucelabs.com:443/wd/hub"),chromeOptions));
+                        driverPool.set(new RemoteWebDriver(new URL("http://3.235.77.205:4444/wd/hub"),chromeOptions));
                     } catch (MalformedURLException e) {
                         e.printStackTrace();
                     }
-                    break;
-                case "mobile_chrome":
-                    DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
-
-                    desiredCapabilities.setCapability(MobileCapabilityType.PLATFORM_NAME, Platform.ANDROID);
-                    desiredCapabilities.setCapability(MobileCapabilityType.VERSION,"8.0");
-                    desiredCapabilities.setCapability(MobileCapabilityType.DEVICE_NAME,"Pixel_2");
-                    //we are telling we want to open mobile chrome browser on the phone
-                    desiredCapabilities.setCapability(MobileCapabilityType.BROWSER_NAME, BrowserType.CHROME);
-                    desiredCapabilities.setCapability(MobileCapabilityType.AUTOMATION_NAME,"UiAutomator2");
-                    try {
-                        driverPool.set(new RemoteWebDriver(new URL("http://localhost:4723/wd/hub"),desiredCapabilities));
-                    } catch (MalformedURLException e) {
-                        e.printStackTrace();
-                    }
-
             }
-
         }
+
 
         return driverPool.get();
     }
-
     public static void closeDriver() {
         driverPool.get().quit();
         driverPool.remove();
