@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="Thursday Feb 11th">
+    <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +38,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../group_20_project" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -56,6 +55,19 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU2CucumberSelenium" />
       <extension name="coverage">
@@ -88,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.FailedTestRunner" />
@@ -147,6 +159,9 @@
       <workItem from="1613418784014" duration="41000" />
       <workItem from="1613472154376" duration="59000" />
       <workItem from="1613481063861" duration="3255000" />
+      <workItem from="1613500817878" duration="956000" />
+      <workItem from="1613546172456" duration="80000" />
+      <workItem from="1613547287637" duration="2802000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
@@ -302,7 +317,9 @@
     <MESSAGE value="tuesday 17.38" />
     <MESSAGE value="tuesday 17.39" />
     <MESSAGE value="Thursday Feb 11th" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thursday Feb 11th" />
+    <MESSAGE value="tuesday 16th" />
+    <MESSAGE value="tuesday 16th final-branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="tuesday 16th final-branch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
