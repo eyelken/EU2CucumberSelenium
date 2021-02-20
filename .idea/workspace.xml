@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="Thursday Feb 11th" />
+    <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/utilities/Driver.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,6 +28,14 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1cg8eLA9ZoCGvA2oiJn3ZcbXLVc" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -53,17 +65,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CukesRunner">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CukesRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="EU2CucumberSelenium" />
       <extension name="coverage">
@@ -96,8 +97,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.CukesRunner" />
         <item itemvalue="JUnit.FailedTestRunner" />
@@ -155,6 +156,15 @@
       <workItem from="1613418784014" duration="41000" />
       <workItem from="1613472154376" duration="59000" />
       <workItem from="1613481063861" duration="3255000" />
+      <workItem from="1613644446177" duration="687000" />
+      <workItem from="1613646396356" duration="77000" />
+      <workItem from="1613646722043" duration="1058000" />
+      <workItem from="1613665752203" duration="38000" />
+      <workItem from="1613665852719" duration="685000" />
+      <workItem from="1613672863477" duration="3000" />
+      <workItem from="1613720456813" duration="13000" />
+      <workItem from="1613754270730" duration="158000" />
+      <workItem from="1613812961272" duration="1302000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
@@ -282,7 +292,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594132767397</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="after delete final branch">
+      <created>1613640275894</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1613640275894</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -319,7 +336,8 @@
     <MESSAGE value="tuesday 17.38" />
     <MESSAGE value="tuesday 17.39" />
     <MESSAGE value="Thursday Feb 11th" />
-    <option name="LAST_COMMIT_MESSAGE" value="Thursday Feb 11th" />
+    <MESSAGE value="after delete final branch" />
+    <option name="LAST_COMMIT_MESSAGE" value="after delete final branch" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
