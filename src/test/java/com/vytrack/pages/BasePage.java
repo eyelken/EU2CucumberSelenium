@@ -114,4 +114,39 @@ public abstract class  BasePage {
         }
     }
 
+    public void sentKeysToInputBox(String inputBoxText, String value){
+
+
+        String locator = "//label[contains(text(),'"+inputBoxText+"')]/../..//input";
+
+        Driver.get().findElement(By.xpath(locator)).sendKeys(value);
+
+    }
+
+/**
+ *
+ * @param buttonIdentifier: it should be title attribute of button if it starts with <a> tag
+ *                          it should be text attribute of button if it starts with <button> tag
+*/
+
+public void clickButton(String buttonIdentifier){
+try {
+
+BrowserUtils.waitFor(3);
+String location = "//[@title='" + buttonIdentifier + "']";
+
+WebElement button = Driver.get().findElement(By.xpath(location));
+button.click();
+
+
+} catch (Exception e) {
+
+String location = "//button[contains(.,'" + buttonIdentifier + "')]";
+
+WebElement button = Driver.get().findElement(By.xpath(location));
+button.click();
+
+}
+}
+
 }
