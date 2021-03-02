@@ -15,6 +15,11 @@ import java.util.Map;
 
 public class ContactsStepDefs {
 
+    DashboardPage dashboardPage = new DashboardPage();
+    LoginPage loginPage = new LoginPage();
+    ContactsPage contactsPage = new ContactsPage();
+    ContactInfoPage contactInfoPage = new ContactInfoPage();
+
     @Given("the user logged in as {string}")
     public void the_user_logged_in_as(String userType) {
         //go to login page
@@ -35,14 +40,13 @@ public class ContactsStepDefs {
         }
 
         //send username and password
-        new LoginPage().login(username, password);
+        loginPage.login(username, password);
     }
 
     @Then("the user should see following options")
     public void the_user_should_see_following_options(List<String> expOptions) {
 
         BrowserUtils.waitFor(2);
-        DashboardPage dashboardPage = new DashboardPage();
         //get the list of webelement and convert them to list of string with the help of ready method.
         List<String> actualOptions = BrowserUtils.getElementsText(dashboardPage.menuOptions);
 
@@ -57,7 +61,7 @@ public class ContactsStepDefs {
     public void the_user_logs_in_using_following_credentials(Map<String,String> userInfo) {
         System.out.println("userInfo = " + userInfo);
 
-        new LoginPage().login(userInfo.get("username"),userInfo.get("password"));
+        loginPage.login(userInfo.get("username"),userInfo.get("password"));
 
         String expectedName=userInfo.get("firstname")+" "+userInfo.get("lastname");
         String actualName=new DashboardPage().getUserName();
@@ -75,7 +79,6 @@ public class ContactsStepDefs {
         BrowserUtils.waitFor(5);
 
         //click the row with email
-        ContactsPage contactsPage = new ContactsPage();
         contactsPage.getContactEmail(email).click();
         BrowserUtils.waitForPageToLoad(7);
 
@@ -84,7 +87,6 @@ public class ContactsStepDefs {
     @Then("the information should be same with database")
     public void the_information_should_be_same_with_database() {
         //get actual data from UI-GUI-Front end-Browser-Website(whatever we see)
-        ContactInfoPage contactInfoPage = new ContactInfoPage();
         String actualFullname = contactInfoPage.contactFullName.getText();
         String actualEmail = contactInfoPage.email.getText();
         String actualPhone = contactInfoPage.phone.getText();
@@ -128,7 +130,6 @@ public class ContactsStepDefs {
     @Then("the information {string} should be same with database")
     public void the_information_should_be_same_with_database(String email) {
         //get actual data from UI-GUI-Front end-Browser-Website(whatever we see)
-        ContactInfoPage contactInfoPage = new ContactInfoPage();
         String actualFullname = contactInfoPage.contactFullName.getText();
         String actualEmail = contactInfoPage.email.getText();
         String actualPhone = contactInfoPage.phone.getText();

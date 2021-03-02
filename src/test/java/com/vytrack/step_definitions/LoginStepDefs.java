@@ -14,6 +14,7 @@ import org.openqa.selenium.WebDriver;
 
 public class LoginStepDefs {
 
+    LoginPage loginPage = new LoginPage();
 
     @Given("the user is on the login page")
     public void the_user_is_on_the_login_page() {
@@ -28,7 +29,6 @@ public class LoginStepDefs {
     public void the_user_enter_the_driver_information(){
         String username = ConfigurationReader.get("driver_username");
         String password = ConfigurationReader.get("driver_password");
-        LoginPage loginPage = new LoginPage();
         loginPage.login(username,password);
 
     }
@@ -47,20 +47,17 @@ public class LoginStepDefs {
     public void the_user_enter_sales_manager_information() {
         String username = ConfigurationReader.get("sales_manager_username");
         String password = ConfigurationReader.get("sales_manager_password");
-        LoginPage loginPage = new LoginPage();
         loginPage.login(username,password);
     }
     @When("the user enter store manager information")
     public void the_user_enter_store_manager_information() {
         String username = ConfigurationReader.get("store_manager_username");
         String password = ConfigurationReader.get("store_manager_password");
-        LoginPage loginPage = new LoginPage();
         loginPage.login(username,password);
     }
 
     @When("the user logs in using {string} and {string}")
     public void the_user_logs_in_using_and(String username, String password) {
-        LoginPage loginPage = new LoginPage();
         loginPage.login(username,password);
     }
 
@@ -71,9 +68,5 @@ public class LoginStepDefs {
         Assert.assertTrue("Actual Title "+Driver.get().getTitle(),Driver.get().getTitle().contains(expectedTitle));
 
     }
-
-
-
-
 
 }
