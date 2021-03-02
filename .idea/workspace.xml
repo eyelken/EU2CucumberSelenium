@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,6 +170,9 @@
       <workItem from="1614009544877" duration="11000" />
       <workItem from="1614011923821" duration="57000" />
       <workItem from="1614072666063" duration="17000" />
+      <workItem from="1614436100737" duration="191000" />
+      <workItem from="1614596250663" duration="10000" />
+      <workItem from="1614680102344" duration="333000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
@@ -324,7 +328,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614011955794</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="BasePage 2 more methods">
+      <created>1614436280180</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1614436280180</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -365,7 +376,8 @@
     <MESSAGE value="feb 19th" />
     <MESSAGE value="feb 19th 2nd time" />
     <MESSAGE value="feb 22nd" />
-    <option name="LAST_COMMIT_MESSAGE" value="feb 22nd" />
+    <MESSAGE value="BasePage 2 more methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="BasePage 2 more methods" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
