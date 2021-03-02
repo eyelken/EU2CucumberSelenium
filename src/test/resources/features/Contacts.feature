@@ -67,7 +67,7 @@ Feature: Contacts page
       | 2      |
       | 3      |
 
-
+  @wip
   Scenario: Contacts test with email
     Given the user logged in as "store manager"
     And the user navigates "Customers" "Contacts"
@@ -81,7 +81,7 @@ Feature: Contacts page
     When the user clicks the "mike.jorden@hotmail.com" from contacts
     Then the information "mike.jorden@hotmail.com" should be same with database
 
-  @db
+
   Scenario Outline: Contacts test with email
     Given the user logged in as "store manager"
     And the user navigates "Customers" "Contacts"
