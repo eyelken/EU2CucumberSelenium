@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/NavigationMenu.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -186,7 +183,7 @@
       <workItem from="1614072666063" duration="17000" />
       <workItem from="1614436100737" duration="191000" />
       <workItem from="1614596250663" duration="10000" />
-      <workItem from="1614680102344" duration="1209000" />
+      <workItem from="1614680102344" duration="4833000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
@@ -356,7 +353,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614680451611</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="db exercise">
+      <created>1614681331394</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1614681331394</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -399,7 +403,8 @@
     <MESSAGE value="feb 22nd" />
     <MESSAGE value="BasePage 2 more methods" />
     <MESSAGE value="qa1 dburl" />
-    <option name="LAST_COMMIT_MESSAGE" value="qa1 dburl" />
+    <MESSAGE value="db exercise" />
+    <option name="LAST_COMMIT_MESSAGE" value="db exercise" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
