@@ -68,5 +68,9 @@ public class LoginStepDefs {
         Assert.assertTrue("Actual Title "+Driver.get().getTitle(),Driver.get().getTitle().contains(expectedTitle));
 
     }
+    @When("the user enter valid credentials through command prompt")
+    public void the_user_enter_valid_credentials_through_command_prompt() {
+        loginPage.login();
+    }
 
 }

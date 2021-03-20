@@ -23,3 +23,8 @@ Feature: Users should be able to login
     Given the user is on the login page
     When the user enter admin information
     Then the user should be able to login
+
+  @command
+  Scenario: Dynamic login
+    When the user enter valid credentials through command prompt
+    Then the user should be able to login

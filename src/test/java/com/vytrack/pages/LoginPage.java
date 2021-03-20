@@ -1,6 +1,7 @@
 package com.vytrack.pages;
 
 import com.vytrack.utilities.BrowserUtils;
+import com.vytrack.utilities.ConfigurationReader;
 import com.vytrack.utilities.Driver;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
@@ -30,8 +31,12 @@ public class LoginPage {
         BrowserUtils.waitFor(2);
         password.sendKeys(passwordStr, Keys.ENTER);
 
-        // verification that we logged
     }
 
+    public void login() {
+        String username = System.getProperty("username") != null ? System.getProperty("username") : ConfigurationReader.get("driver_username");
+        String password = System.getProperty("password") != null ? System.getProperty("password") : ConfigurationReader.get("driver_password");
+        login(username, password);
+    }
 
 }
