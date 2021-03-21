@@ -17,8 +17,6 @@ public class LoginPage {
     @FindBy(id="prependedInput")
     public WebElement userName;
 
-
-
     @FindBy(id="prependedInput2")
     public WebElement password;
 
@@ -31,6 +29,26 @@ public class LoginPage {
         BrowserUtils.waitFor(2);
         password.sendKeys(passwordStr, Keys.ENTER);
 
+    }
+    public void login(String userType){
+        //go to login page
+        Driver.get().get(ConfigurationReader.get("url"));
+
+        //based on input enter that user information
+        String username = null;
+        String password = null;
+
+        if (userType.equals("driver")) {
+            username = ConfigurationReader.get("driver_username");
+            password = ConfigurationReader.get("driver_password");
+        } else if (userType.equals("sales manager")) {
+            username = ConfigurationReader.get("sales_manager_username");
+            password = ConfigurationReader.get("sales_manager_password");
+        } else if (userType.equals("store manager")) {
+            username = ConfigurationReader.get("store_manager_username");
+            password = ConfigurationReader.get("store_manager_password");
+        }
+        login(username,password);
     }
 
     public void login() {

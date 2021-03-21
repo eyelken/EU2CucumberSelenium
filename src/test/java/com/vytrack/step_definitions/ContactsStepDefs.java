@@ -22,25 +22,9 @@ public class ContactsStepDefs {
 
     @Given("the user logged in as {string}")
     public void the_user_logged_in_as(String userType) {
-        //go to login page
-        Driver.get().get(ConfigurationReader.get("url"));
-        //based on input enter that user information
-        String username = null;
-        String password = null;
 
-        if (userType.equals("driver")) {
-            username = ConfigurationReader.get("driver_username");
-            password = ConfigurationReader.get("driver_password");
-        } else if (userType.equals("sales manager")) {
-            username = ConfigurationReader.get("sales_manager_username");
-            password = ConfigurationReader.get("sales_manager_password");
-        } else if (userType.equals("store manager")) {
-            username = ConfigurationReader.get("store_manager_username");
-            password = ConfigurationReader.get("store_manager_password");
-        }
-
-        //send username and password
-        loginPage.login(username, password);
+        //send userType to enter username and password
+        loginPage.login(userType);
     }
 
     @Then("the user should see following options")

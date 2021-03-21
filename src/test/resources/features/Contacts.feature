@@ -81,7 +81,7 @@ Feature: Contacts page
     When the user clicks the "mike.jorden@hotmail.com" from contacts
     Then the information "mike.jorden@hotmail.com" should be same with database
 
-  @db @wip
+  @db
   Scenario Outline: Contacts test with email
     Given the user logged in as "store manager"
     And the user navigates "Customers" "Contacts"
