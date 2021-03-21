@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EU4CucumberSelenium" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -217,6 +214,11 @@
       <workItem from="1616243396539" duration="1047000" />
       <workItem from="1616246289898" duration="2967000" />
       <workItem from="1616251629947" duration="211000" />
+      <workItem from="1616252364001" duration="158000" />
+      <workItem from="1616254091376" duration="32000" />
+      <workItem from="1616254188944" duration="9000" />
+      <workItem from="1616254269661" duration="3000" />
+      <workItem from="1616258334669" duration="14000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
@@ -414,7 +416,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615491060835</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="System.getProperty">
+      <created>1616252399442</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1616252399442</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -433,7 +442,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="thursday noon" />
     <MESSAGE value="thursday after jamal class" />
     <MESSAGE value="sunday during jamal class" />
     <MESSAGE value="sunday after jamal class" />
@@ -458,7 +466,8 @@
     <MESSAGE value="db exercise2" />
     <MESSAGE value="db exercise3 cleaner code" />
     <MESSAGE value="smoke some delete" />
-    <option name="LAST_COMMIT_MESSAGE" value="smoke some delete" />
+    <MESSAGE value="System.getProperty" />
+    <option name="LAST_COMMIT_MESSAGE" value="System.getProperty" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
