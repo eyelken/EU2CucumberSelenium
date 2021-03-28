@@ -1,18 +1,18 @@
 Feature: Contacts page
-
+  @regression
   Scenario: Default page number
     Given the user is on the login page
     And the user enter the driver information
     When the user navigates "Customers" "Contacts"
     Then default page number should be 1
 
-
+  @regression
   Scenario: Verify Create Calendar Event
     Given the user is on the login page
     And the user enter sales manager information
     When the user navigates "Activities" "Calendar Events"
 
-
+  @regression
   Scenario: Menu options
     Given the user logged in as "driver"
     Then the user should see following options
@@ -20,7 +20,7 @@ Feature: Contacts page
       | Customers  |
       | Activities |
       | System     |
-
+  @regression
   Scenario: login as a given user
     Given the user is on the login page
     When the user logs in using following credentials
@@ -30,7 +30,7 @@ Feature: Contacts page
       | lastname  | Doe         |
     Then the user should be able to login
 
-
+  @regression
   Scenario: login as a given user
     Given the user is on the login page
     When the user logs in using following credentials
@@ -40,7 +40,7 @@ Feature: Contacts page
       | lastname  | Harber          |
     Then the user should be able to login
 
-
+  @regression
   Scenario Outline: login as a given user <userType>
     Given the user is on the login page
     When the user logs in using following credentials
@@ -55,7 +55,7 @@ Feature: Contacts page
       | user1           | John      | Doe      |
       | salesmanager101 | Peyton    | Harber   |
       | storemanager85  | Marcella  | Huels    |
-@num
+@num  @regression
   Scenario Outline: Default page number
     Given the user is on the login page
     And the user enter the driver information
@@ -67,21 +67,21 @@ Feature: Contacts page
       | 2      |
       | 3      |
 
-  @db
+  @db @regression
   Scenario: Contacts test with email
     Given the user logged in as "store manager"
     And the user navigates "Customers" "Contacts"
     When the user clicks the "mbrackstone9@example.com" from contacts
     Then the information should be same with database
 
-  @db
+  @db @regression
   Scenario: Contacts test with email
     Given the user logged in as "store manager"
     And the user navigates "Customers" "Contacts"
     When the user clicks the "mike.jorden@hotmail.com" from contacts
     Then the information "mike.jorden@hotmail.com" should be same with database
 
-  @db
+  @db @regression
   Scenario Outline: Contacts test with email
     Given the user logged in as "store manager"
     And the user navigates "Customers" "Contacts"

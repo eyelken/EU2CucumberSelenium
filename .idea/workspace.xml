@@ -6,11 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/pages/LoginPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/ContactsStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/ContactsStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/LoginWithParameters.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/LoginWithParameters.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -255,7 +250,8 @@
       <workItem from="1616254188944" duration="9000" />
       <workItem from="1616254269661" duration="3000" />
       <workItem from="1616258334669" duration="14000" />
-      <workItem from="1616315706337" duration="1622000" />
+      <workItem from="1616315706337" duration="1703000" />
+      <workItem from="1616697744375" duration="171000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
@@ -467,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616315722584</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="new login with userType - login with parameters feature">
+      <created>1616317400017</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1616317400017</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -486,7 +489,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="thursday after jamal class" />
     <MESSAGE value="sunday during jamal class" />
     <MESSAGE value="sunday after jamal class" />
     <MESSAGE value="monday afternoon before class" />
@@ -511,7 +513,8 @@
     <MESSAGE value="db exercise3 cleaner code" />
     <MESSAGE value="smoke some delete" />
     <MESSAGE value="System.getProperty" />
-    <option name="LAST_COMMIT_MESSAGE" value="System.getProperty" />
+    <MESSAGE value="new login with userType - login with parameters feature" />
+    <option name="LAST_COMMIT_MESSAGE" value="new login with userType - login with parameters feature" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

@@ -1,6 +1,6 @@
 Feature: Login as different users
 
-@smoke
+@smoke @regression
   Scenario: login as a driver user
     Given the user is on the login page
     When the user logs in using "user1" and "UserUser123"
