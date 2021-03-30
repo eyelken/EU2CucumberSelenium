@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -245,6 +244,7 @@
       <workItem from="1616697744375" duration="171000" />
       <workItem from="1616929609448" duration="541000" />
       <workItem from="1616956204260" duration="48000" />
+      <workItem from="1617085465016" duration="476000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
@@ -470,7 +470,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616929797858</updated>
     </task>
-    <option name="localTasksCounter" value="33" />
+    <task id="LOCAL-00033" summary="back smoke again">
+      <created>1617085498818</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1617085498818</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +496,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sunday after jamal class" />
     <MESSAGE value="monday afternoon before class" />
     <MESSAGE value="June 28 10:35 after db connection adds" />
     <MESSAGE value="June 28 13:43" />
@@ -514,7 +520,8 @@
     <MESSAGE value="System.getProperty" />
     <MESSAGE value="new login with userType - login with parameters feature" />
     <MESSAGE value="after @regression tag added" />
-    <option name="LAST_COMMIT_MESSAGE" value="after @regression tag added" />
+    <MESSAGE value="back smoke again" />
+    <option name="LAST_COMMIT_MESSAGE" value="back smoke again" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
