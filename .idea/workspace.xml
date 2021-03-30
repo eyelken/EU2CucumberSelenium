@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +51,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../EU4CucumberSelenium" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -66,17 +68,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CukesRunner">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: Contacts test with email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" />
@@ -252,6 +243,8 @@
       <workItem from="1616258334669" duration="14000" />
       <workItem from="1616315706337" duration="1703000" />
       <workItem from="1616697744375" duration="171000" />
+      <workItem from="1616929609448" duration="541000" />
+      <workItem from="1616956204260" duration="48000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
@@ -470,7 +463,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616317400017</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="after @regression tag added">
+      <created>1616929797858</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1616929797858</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -489,7 +489,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sunday during jamal class" />
     <MESSAGE value="sunday after jamal class" />
     <MESSAGE value="monday afternoon before class" />
     <MESSAGE value="June 28 10:35 after db connection adds" />
@@ -514,7 +513,8 @@
     <MESSAGE value="smoke some delete" />
     <MESSAGE value="System.getProperty" />
     <MESSAGE value="new login with userType - login with parameters feature" />
-    <option name="LAST_COMMIT_MESSAGE" value="new login with userType - login with parameters feature" />
+    <MESSAGE value="after @regression tag added" />
+    <option name="LAST_COMMIT_MESSAGE" value="after @regression tag added" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
