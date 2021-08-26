@@ -7,7 +7,7 @@ Feature: Login as different users
     Then the user should be able to login
     And the title contains "Dashboard"
 
-  @wip  #Homework
+   #Homework
   Scenario: login as a userType
     Given the user logged in as "store manager"
     Then the user should be able to login

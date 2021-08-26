@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,12 +49,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../EU4CucumberSelenium" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../zerobank-automation" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -67,6 +67,17 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CukesRunner">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Scenario: Contacts test with email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" />
@@ -140,8 +151,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
-        <item itemvalue="Cucumber Java.Scenario: login as a driver user" />
-        <item itemvalue="Cucumber Java.Scenario: Contacts test with email" />
         <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.FailedTestRunner" />
       </list>
@@ -244,7 +253,60 @@
       <workItem from="1616697744375" duration="171000" />
       <workItem from="1616929609448" duration="541000" />
       <workItem from="1616956204260" duration="48000" />
-      <workItem from="1617085465016" duration="476000" />
+      <workItem from="1617085465016" duration="1078000" />
+      <workItem from="1617298644591" duration="11000" />
+      <workItem from="1617984265117" duration="20000" />
+      <workItem from="1617997892941" duration="1282000" />
+      <workItem from="1618592170856" duration="19000" />
+      <workItem from="1618605530847" duration="1425000" />
+      <workItem from="1618666028139" duration="608000" />
+      <workItem from="1618668647411" duration="386000" />
+      <workItem from="1618669523093" duration="7000" />
+      <workItem from="1618678110998" duration="489000" />
+      <workItem from="1618685542885" duration="608000" />
+      <workItem from="1618744945377" duration="6000" />
+      <workItem from="1618746263834" duration="73000" />
+      <workItem from="1618782692669" duration="537000" />
+      <workItem from="1618864999350" duration="27000" />
+      <workItem from="1618949786472" duration="18000" />
+      <workItem from="1618960604293" duration="144000" />
+      <workItem from="1619651891895" duration="50000" />
+      <workItem from="1619652177669" duration="9000" />
+      <workItem from="1619654313661" duration="5000" />
+      <workItem from="1619798387560" duration="9000" />
+      <workItem from="1619989147485" duration="140000" />
+      <workItem from="1620004611089" duration="41000" />
+      <workItem from="1620677282944" duration="23000" />
+      <workItem from="1621676177103" duration="877000" />
+      <workItem from="1621890484254" duration="1295000" />
+      <workItem from="1622139791339" duration="882000" />
+      <workItem from="1622496971324" duration="147000" />
+      <workItem from="1622566675062" duration="1384000" />
+      <workItem from="1622576872210" duration="1309000" />
+      <workItem from="1622967922706" duration="18000" />
+      <workItem from="1622989195681" duration="202000" />
+      <workItem from="1623096112364" duration="48000" />
+      <workItem from="1623096294142" duration="1215000" />
+      <workItem from="1627323325416" duration="473000" />
+      <workItem from="1627635372481" duration="655000" />
+      <workItem from="1627645683264" duration="9000" />
+      <workItem from="1627880216154" duration="9000" />
+      <workItem from="1627929154738" duration="601000" />
+      <workItem from="1628145050036" duration="87000" />
+      <workItem from="1628146557943" duration="121000" />
+      <workItem from="1628151141545" duration="172000" />
+      <workItem from="1628157000859" duration="1583000" />
+      <workItem from="1628169232961" duration="353000" />
+      <workItem from="1628260010312" duration="18000" />
+      <workItem from="1628575512156" duration="665000" />
+      <workItem from="1628676796899" duration="57000" />
+      <workItem from="1628677936745" duration="1306000" />
+      <workItem from="1628766004170" duration="227000" />
+      <workItem from="1628864254795" duration="503000" />
+      <workItem from="1629224801967" duration="26000" />
+      <workItem from="1629881694196" duration="66000" />
+      <workItem from="1629882562458" duration="2000" />
+      <workItem from="1629883678631" duration="13000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
