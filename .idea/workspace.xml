@@ -6,6 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +57,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -67,17 +70,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.CukesRunner">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Scenario: Contacts test with email" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="5" />
       <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/Contacts.feature" />
@@ -151,6 +143,7 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.CukesRunner" />
+        <item itemvalue="Cucumber Java.Scenario: Contacts test with email" />
         <item itemvalue="JUnit.FailedTestRunner" />
         <item itemvalue="JUnit.FailedTestRunner" />
       </list>
@@ -307,6 +300,48 @@
       <workItem from="1629881694196" duration="66000" />
       <workItem from="1629882562458" duration="2000" />
       <workItem from="1629883678631" duration="13000" />
+      <workItem from="1629975071507" duration="321000" />
+      <workItem from="1629983587432" duration="1303000" />
+      <workItem from="1630493012986" duration="76000" />
+      <workItem from="1630771287170" duration="237000" />
+      <workItem from="1630773350325" duration="45000" />
+      <workItem from="1630960970036" duration="683000" />
+      <workItem from="1631027486189" duration="40000" />
+      <workItem from="1631032198578" duration="101000" />
+      <workItem from="1631086110694" duration="13000" />
+      <workItem from="1631092496828" duration="612000" />
+      <workItem from="1631257410840" duration="96000" />
+      <workItem from="1631257568554" duration="54000" />
+      <workItem from="1631258497703" duration="3000" />
+      <workItem from="1631289057102" duration="4000" />
+      <workItem from="1633375384701" duration="652000" />
+      <workItem from="1634328635952" duration="288000" />
+      <workItem from="1634809741325" duration="344000" />
+      <workItem from="1634927349566" duration="14000" />
+      <workItem from="1635156435284" duration="27000" />
+      <workItem from="1635689357230" duration="4041000" />
+      <workItem from="1635857897356" duration="1215000" />
+      <workItem from="1636392886493" duration="310000" />
+      <workItem from="1636455422174" duration="619000" />
+      <workItem from="1636792719686" duration="35000" />
+      <workItem from="1636893614172" duration="114000" />
+      <workItem from="1637765659768" duration="750000" />
+      <workItem from="1638563798237" duration="628000" />
+      <workItem from="1638604155486" duration="6000" />
+      <workItem from="1638815916224" duration="195000" />
+      <workItem from="1639507656743" duration="829000" />
+      <workItem from="1639686588432" duration="86000" />
+      <workItem from="1642098617562" duration="19000" />
+      <workItem from="1642599868544" duration="608000" />
+      <workItem from="1642687006249" duration="660000" />
+      <workItem from="1642792773035" duration="977000" />
+      <workItem from="1643714302607" duration="478000" />
+      <workItem from="1643714952963" duration="5000" />
+      <workItem from="1644003386531" duration="179000" />
+      <workItem from="1644004002672" duration="548000" />
+      <workItem from="1644229862865" duration="123000" />
+      <workItem from="1644319282819" duration="17000" />
+      <workItem from="1644413037780" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
@@ -539,7 +574,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617085498818</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="after EU5 Qs">
+      <created>1629975342943</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1629975342943</updated>
+    </task>
+    <option name="localTasksCounter" value="35" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -558,7 +600,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="monday afternoon before class" />
     <MESSAGE value="June 28 10:35 after db connection adds" />
     <MESSAGE value="June 28 13:43" />
     <MESSAGE value="June 28 14:37" />
@@ -583,7 +624,8 @@
     <MESSAGE value="new login with userType - login with parameters feature" />
     <MESSAGE value="after @regression tag added" />
     <MESSAGE value="back smoke again" />
-    <option name="LAST_COMMIT_MESSAGE" value="back smoke again" />
+    <MESSAGE value="after EU5 Qs" />
+    <option name="LAST_COMMIT_MESSAGE" value="after EU5 Qs" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

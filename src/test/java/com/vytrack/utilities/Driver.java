@@ -10,11 +10,13 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.CapabilityType;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.safari.SafariDriver;
 
 import java.net.MalformedURLException;
 import java.net.URL;
+import java.util.concurrent.TimeUnit;
 
 public class Driver {
     private Driver() {
@@ -39,6 +41,14 @@ public class Driver {
                     WebDriverManager.chromedriver().setup();
                     driverPool.set(new ChromeDriver(new ChromeOptions().setHeadless(true)));
                     break;
+                case "chromeSSL":
+                    WebDriverManager.chromedriver().setup();
+                    ChromeOptions capability = new ChromeOptions();
+                    capability.setCapability(CapabilityType.ACCEPT_SSL_CERTS, true);
+                    capability.setCapability(CapabilityType.ACCEPT_INSECURE_CERTS,true);
+                    driverPool.set(new ChromeDriver(capability));
+                    driverPool.get().manage().window().maximize();
+                    driverPool.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
                 case "firefox":
                     WebDriverManager.firefoxdriver().setup();
                     driverPool.set(new FirefoxDriver());

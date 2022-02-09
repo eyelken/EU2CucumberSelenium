@@ -1,9 +1,9 @@
 Feature: Account types
   @smoke  @regression
   Scenario: Driver user
-    Given the user logged in as "driver"
-    When the user navigates "Activities" "Calendar Events"
-    Then the title contains "Calendar Events - Activities"
+    * the user logged in as "driver"
+    * the user navigates "Activities" "Calendar Events"
+    * the title contains "Calendar Events - Activities"
   @smoke  @regression
   Scenario: Sales manager user
     Given the user logged in as "sales manager"
