@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="">
+    <list default="true" id="d6f57ce8-d8df-4b6f-b69d-d435f5b80ca1" name="Default Changelist" comment="after new POM.XML">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/runners/CukesRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/vytrack/step_definitions/LoginStepDefs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/AccountTypes.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,6 +340,12 @@
       <workItem from="1644229862865" duration="123000" />
       <workItem from="1644319282819" duration="17000" />
       <workItem from="1644413037780" duration="39000" />
+      <workItem from="1644414264826" duration="66000" />
+      <workItem from="1644418162451" duration="9000" />
+      <workItem from="1644418756467" duration="241000" />
+      <workItem from="1644419902927" duration="18000" />
+      <workItem from="1644923709280" duration="654000" />
+      <workItem from="1644924491873" duration="301000" />
     </task>
     <task id="LOCAL-00001" summary="wed morning after task">
       <created>1591170568723</created>
@@ -581,7 +585,14 @@
       <option name="project" value="LOCAL" />
       <updated>1629975342943</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="after SSL">
+      <created>1644414315674</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1644414315674</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -600,7 +611,6 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="June 28 10:35 after db connection adds" />
     <MESSAGE value="June 28 13:43" />
     <MESSAGE value="June 28 14:37" />
     <MESSAGE value="June 28 14:47" />
@@ -625,7 +635,8 @@
     <MESSAGE value="after @regression tag added" />
     <MESSAGE value="back smoke again" />
     <MESSAGE value="after EU5 Qs" />
-    <option name="LAST_COMMIT_MESSAGE" value="after EU5 Qs" />
+    <MESSAGE value="after SSL" />
+    <option name="LAST_COMMIT_MESSAGE" value="after SSL" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
